@@ -1,0 +1,41 @@
+{
+  "name": "kotlin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx start"
+  },
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "ioredis": "^5.2.3",
+    "ip6addr": "^0.2.5",
+    "jade": "~1.11.0",
+    "mime-types": "^2.1.35",
+    "moment": "^2.29.4",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "redis": "^4.6.6",
+    "socket.io": "^4.5.2",
+    "sprintf-js": "^1.1.2",
+    "wildcard-match": "^5.1.2",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-nodemon": "^2.5.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jstransformer-scss": "^2.0.0",
+    "sass": "^1.55.0"
+  }
+}
